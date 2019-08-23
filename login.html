@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎登录A公司可视化系统</title>
+	<link href="assets/css/login.css" rel="stylesheet" type="text/css" />
+	<!--<script type="text/javascript">
+		
+		 $("#login-button").click(function(event){
+				 event.preventDefault();
+			 
+			 $('form').fadeOut(500);
+			 $('.wrapper').addClass('form-success');
+		});
+		function check(){
+	    {
+		  if(form.username.value == "")//如果用户名为空
+		  {
+			alert("您还没有填写用户名！");
+			form.username.focus();
+			return false;
+		  }
+		  if(form.password.value == "")//如果密码为空
+		  {
+			alert("您还没有填写密码！");
+			myform.password.focus();
+			return false;
+		  }
+		  
+		}
+		/**********************原js代码不起作用***********************/
+	</script>-->
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<h1>A公司可视化系统</h1>
+			
+			<!--<form name='form' class="form" method='post' action='login.php' onSubmit="return check()">/******数据库连接有问题*******/-->
+			<form>
+				<input type="text" placeholder="请输入用户名" name='username' id="username">
+				<input type="password" placeholder="请输入密码" name='password' id="password">
+				<button class="button" type="submit" onclick="return checkLogin()" id="login-button" name='submit' value='submit'>登录</button>
+			</form>
+		</div>
+		
+		<ul class="bg-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+
+	<script src="assets/js/login.js" rel="script"></script>
+</body>
+</html>
